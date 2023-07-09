@@ -838,7 +838,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
-  gap:20px;
+  gap:0px;
 }
 .photo_presentation {
   width: 100%;
@@ -855,14 +855,15 @@ body {
 }
 
 .texte_presentation p{
-  font-size : 18px;
+  font-size : 14px;
 }
 .mes_competences{
   margin:0px;
 }
 
 .mes_atouts {
-  font-size: 18px;
+  font-size : 14px;
+  padding-bottom:25px;
 }
 
 .modal {
@@ -923,16 +924,15 @@ body {
 .texte_modale {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   width:100%;
   font-size: 24px;
 }
 .outils_informatiques {
-  padding:30px;
+  padding-left:50px;
   width: 100%;
 }
 .description_projet {
-  padding:30px;
+  padding-right:50px;
   width: 100%;
 }
 
@@ -1001,5 +1001,25 @@ body {
 
  .info_phone {
   font-size: 25px;
+}
+
+.header_portfolio{
+  height: 90px;
+}
+.lien_navigation {
+  font-size: 28px;
+}
+
+.mes_competences h2{
+  margin-top: 30px;
+  margin-bottom: 0px;
+    font-size: 26px;
+}
+.mes_competences p{
+      font-size: 20px;
+  }
+
+  .texte_modale h3 {
+  text-align: center;
 }
 }
