@@ -150,7 +150,7 @@ body {
   font-weight: 800;
   color: transparent;
   font-size: 140px;
-  background: url("/assets/images/image2.jpg") repeat;
+  background: url("/assets/images/autres/image2.jpg") repeat;
   background-position: 59% 58%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -165,7 +165,7 @@ body {
   font-weight: 800;
   color: transparent;
   font-size: 140px;
-  background: url("/assets/images/image2.jpg") repeat;
+  background: url("/assets/images/autres/image2.jpg") repeat;
   background-position: 32% 85%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -218,8 +218,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: -webkit-linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
-    background: linear-gradient(rgb(235, 236, 231), rgb(255, 255, 255));
+    background-color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
     border: solid 5px rgb(221, 226, 203);
     margin: 20px;
@@ -395,18 +394,17 @@ body {
 
 .modal {
     position: fixed;
-    top: 51%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
-    max-width: 1000px;
-    height: 85%;
-    max-height: 800px;
+    width: 92%;
+    max-width: 1400px;
+    height: 100%;
+    max-height: 1000px;
     overflow: auto;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 9999;
-    border-radius: 20px;
   }
 
 #nav_modal1{
@@ -414,6 +412,7 @@ body {
     flex-direction: row;
     font-size: 26px;
     justify-content: space-around;
+    padding-top:10px;
 
 }
 
@@ -429,6 +428,7 @@ body {
     flex-direction: row;
     font-size: 26px;
     justify-content: space-around;
+    padding-top:10px;
 
 }
 
@@ -444,7 +444,7 @@ body {
   flex-direction: row;
   font-size: 26px;
   justify-content: space-around;
-
+  padding-top:10px;
 }
 
 #nav_modal3 i {
@@ -459,6 +459,7 @@ body {
   flex-direction: row;
   font-size: 26px;
   justify-content: space-around;
+  padding-top:10px;
 
 }
 
@@ -474,6 +475,7 @@ body {
   flex-direction: row;
   font-size: 26px;
   justify-content: space-around;
+  padding-top:10px;
 
 }
 
@@ -489,6 +491,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   font-size: 26px;
+  padding-top:10px;
+
 }
 
 #nav_modal6 i {
@@ -681,6 +685,7 @@ body {
   .modal_wrapper {
     display: flex;
     flex-direction: row;
+    padding:40px;
   }
 
   .modal1_wrapper a {
@@ -784,4 +789,217 @@ body {
   font-size: 20px;
   justify-content: start;
   padding-left:40px;
+}
+
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 992px){
+  
+  html{
+    width: 100%;
+  }
+  
+  .title {
+    font-size : 120px;
+    width: 100%;
+
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container_cards {
+    padding: 15px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:55px;
+    justify-content: center;
+  }
+  .container_all_cards {
+    display: flex;
+    justify-content: center; 
+    background-color: antiquewhite; 
+    gap:50px;
+}
+
+.tous_les_logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:45px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  gap:20px;
+}
+.photo_presentation {
+  width: 100%;
+  padding-left:0px;
+}
+.texte_presentation {
+  width: 92%;
+  background-color: antiquewhite;
+  padding-inline:40px;    
+  padding-bottom:0px;
+  padding-top:30px;
+  margin-right: 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.texte_presentation p{
+  font-size : 18px;
+}
+.mes_competences{
+  margin:0px;
+}
+
+.mes_atouts {
+  font-size: 18px;
+}
+
+.modal {
+  position: fixed;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1400px;
+  height: 1200px;
+  overflow: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+#nav_modal1 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+#nav_modal2 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+#nav_modal3 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+#nav_modal4 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+#nav_modal5 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+#nav_modal6 i {
+  padding:0px;
+  font-size: 100px;
+  cursor: pointer;
+  margin-right: 100px;
+}
+.modal_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding:0px;
+}
+.texte_modale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:100%;
+  font-size: 24px;
+}
+.outils_informatiques {
+  padding:30px;
+  width: 100%;
+}
+.description_projet {
+  padding:30px;
+  width: 100%;
+}
+
+.carrousel {
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  transition : opacity 0.5s ease-in-out;
+  margin-bottom: 20px;
+  padding:20px;
+}
+.images_carrousel {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+.images_carrousel2 {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+.images_carrousel3 {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+.images_carrousel4 {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+.images_carrousel5 {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+.images_carrousel6 {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  height: 500px;
+  border: solid 2px black;
+}
+
+.email{
+  width:15%;
+ }
+
+ .phone{
+  width:15%;
+ }
+
+ .info_email {
+  font-size: 25px;
+}
+
+ .info_phone {
+  font-size: 25px;
+}
 }
