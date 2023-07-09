@@ -551,7 +551,7 @@ body {
   }
   
   #prevButton {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -559,15 +559,23 @@ body {
   }
   
   #nextButton {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
 
+  #prevButton i {
+    font-size: 70px;
+  }
+
+  #nextButton i {
+    font-size: 70px;
+  }
+
   #prevButton2 {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -575,15 +583,23 @@ body {
   }
   
   #nextButton2 {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
 
+ #prevButton2 i {
+    font-size: 70px;
+  }
+
+  #nextButton2 i {
+    font-size: 70px;
+  }
+
   #prevButton3 {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -591,15 +607,23 @@ body {
   }
   
   #nextButton3 {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
 
+  #prevButton3 i {
+    font-size: 70px;
+  }
+
+  #nextButton3 i {
+    font-size: 70px;
+  }
+
   #prevButton4 {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -607,15 +631,23 @@ body {
   }
   
   #nextButton4 {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
 
+  #prevButton4 i {
+    font-size: 70px;
+  }
+
+  #nextButton4 i {
+    font-size: 70px;
+  }
+
   #prevButton5 {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -623,15 +655,23 @@ body {
   }
   
   #nextButton5 {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
 
+  #prevButton5 i {
+    font-size: 70px;
+  }
+
+  #nextButton5 i {
+    font-size: 70px;
+  }
+
   #prevButton6 {
-    left: 25px;
+    left: 0px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
@@ -639,12 +679,21 @@ body {
   }
   
   #nextButton6 {
-    right: 25px;
+    right: -100px;
     font-size: 70px;
     color:white;
     -webkit-text-stroke: 1px black;
     background-color: transparent;
   }
+
+  #prevButton6 i {
+    font-size: 70px;
+  }
+
+  #nextButton6 i {
+    font-size: 70px;
+  }
+
   .modal_wrapper {
     display: flex;
     flex-direction: row;
@@ -962,5 +1011,84 @@ body {
   .texte_modale h3 {
   text-align: center;
 }
+#prevButton {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
 
+#nextButton {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#prevButton2 {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#nextButton2 {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#prevButton3 {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#nextButton3 {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+#prevButton4 {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#nextButton4 {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+#prevButton5 {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#nextButton5 {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+#prevButton6 {
+  left: 0px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
+
+#nextButton6 {
+  right: -100px;
+  font-size: 70px;
+  color:yellow;
+  -webkit-text-stroke: 1px black;
+}
 }
