@@ -667,6 +667,7 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
     cursor: pointer;
     text-decoration: none;
+    color:black;
   }  
 
   .lien_dans_modal:hover {
@@ -961,4 +962,5 @@ body {
   .texte_modale h3 {
   text-align: center;
 }
+
 }
