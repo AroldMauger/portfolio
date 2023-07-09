@@ -150,7 +150,7 @@ body {
   font-weight: 800;
   color: transparent;
   font-size: 140px;
-  background: url("assets/images/autres/image2.jpg") repeat;
+  background: url("/assets/images/autres/image2.webp") repeat;
   background-position: 59% 58%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -165,7 +165,7 @@ body {
   font-weight: 800;
   color: transparent;
   font-size: 140px;
-  background: url("assets/images/autres/image2.jpg") repeat;
+  background: url("/assets/images/autres/image2.webp") repeat;
   background-position: 32% 85%;
   -webkit-background-clip: text;
   background-clip: text;
