@@ -409,30 +409,21 @@ body {
 
 #nav_modal1{
     display: flex;
-    flex-direction: row;
     font-size: 26px;
-    justify-content: space-around;
+    justify-content: center;
     padding-top:10px;
 
 }
 
-#nav_modal1 i {
-    padding:15px;
-    font-size: 35px;
-    cursor: pointer;
-    margin-right: 100px;
-}
 
 #nav_modal2{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;    
     font-size: 26px;
-    justify-content: space-around;
     padding-top:10px;
-
 }
 
-#nav_modal2 i {
+.modal1_wrapper i {
     padding:15px;
     font-size: 35px;
     cursor: pointer;
@@ -441,66 +432,38 @@ body {
 
 #nav_modal3{
   display: flex;
-  flex-direction: row;
   font-size: 26px;
-  justify-content: space-around;
+  justify-content: center;
   padding-top:10px;
 }
 
-#nav_modal3 i {
-  padding:15px;
-  font-size: 35px;
-  cursor: pointer;
-  margin-right: 100px;
-}
 
 #nav_modal4{
   display: flex;
-  flex-direction: row;
   font-size: 26px;
-  justify-content: space-around;
+  justify-content: center;
   padding-top:10px;
 
 }
 
-#nav_modal4 i {
-  padding:15px;
-  font-size: 35px;
-  cursor: pointer;
-  margin-right: 100px;
-}
 
 #nav_modal5{
   display: flex;
-  flex-direction: row;
   font-size: 26px;
-  justify-content: space-around;
+  justify-content: center;
   padding-top:10px;
 
 }
 
-#nav_modal5 i {
-  padding:15px;
-  font-size: 35px;
-  cursor: pointer;
-  margin-right: 100px;
-}
 
 #nav_modal6{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 26px;
   padding-top:10px;
 
 }
 
-#nav_modal6 i {
-  padding:15px;
-  font-size: 35px;
-  cursor: pointer;
-  margin-right: 100px;
-}
 
 .texte_modale {
     padding-inline:30px;
@@ -791,6 +754,10 @@ body {
   padding-left:40px;
 }
 
+.modal_header {
+  display: flex;
+  width: 100%;
+}
 
 /* RESPONSIVE MOBILE */
 
@@ -879,42 +846,14 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   z-index: 9999;
 }
-#nav_modal1 i {
+
+.modal1_wrapper i {
   padding:0px;
   font-size: 100px;
   cursor: pointer;
   margin-right: 100px;
 }
-#nav_modal2 i {
-  padding:0px;
-  font-size: 100px;
-  cursor: pointer;
-  margin-right: 100px;
-}
-#nav_modal3 i {
-  padding:0px;
-  font-size: 100px;
-  cursor: pointer;
-  margin-right: 100px;
-}
-#nav_modal4 i {
-  padding:0px;
-  font-size: 100px;
-  cursor: pointer;
-  margin-right: 100px;
-}
-#nav_modal5 i {
-  padding:0px;
-  font-size: 100px;
-  cursor: pointer;
-  margin-right: 100px;
-}
-#nav_modal6 i {
-  padding:0px;
-  font-size: 100px;
-  cursor: pointer;
-  margin-right: 100px;
-}
+
 .modal_wrapper {
   display: flex;
   flex-direction: column;
